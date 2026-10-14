@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canil de Excelência | Filhotes de Raça com Pedigree</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Ícones gratuitos -->
+    <link rel="stylesheet" href="https://cloudflare.com">
+</head>
+<body>
+
+    <!-- Cabeçalho / Menu -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <i class="fa-solid fa-dog"></i> <span>ANE CANIL</span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#sobre">O Canil</a></li>
+                    <li><a href="#filhotes">Filhotes</a></li>
+                    <li><a href="#contato" class="btn-nav">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Banner Principal -->
+    <section id="inicio" class="hero">
+        <div class="container hero-content">
+            <h1>Criação Selecionada e Amparo Veterinário</h1>
+            <p>Filhotes de raça pura, criados com amor, genética de excelência e pedigree reconhecido.</p>
+            <a href="#filhotes" class="btn-primary">Ver Filhotes Disponíveis</a>
+        </div>
+    </section>
+
+    <!-- Diferenciais -->
+    <section class="features container">
+        <div class="feature-card">
+            <i class="fa-solid fa-id-card"></i>
+            <h3>Pedigree CBKC</h3>
+            <p>Todos os nossos cães possuem documentação oficial e árvore genealógica comprovada.</p>
+        </div>
+        <div class="feature-card">
+            <i class="fa-solid fa-stethoscope"></i>
+            <h3>Controle Familiar & Saúde</h3>
+            <p>Matrizes e padreadores testados contra doenças genéticas da raça.</p>
+        </div>
+        <div class="feature-card">
+            <i class="fa-solid fa-truck-moving"></i>
+            <h3>Envio Seguro</h3>
+            <p>Entregamos em todo o Brasil através de transporte especializado e seguro.</p>
+        </div>
+    </section>
+
+    <!-- Sobre o Canil -->
+    <section id="sobre" class="about container">
+        <div class="about-text">
+            <h2>Dedicados à Preservação da Raça</h2>
+            <p>No Canil Prestígio, nosso foco não é a quantidade, mas a qualidade e o bem-estar dos animais. Nossos cães vivem em espaço amplo, com socialização precoce e acompanhamento veterinário constante.</p>
+            <p>Garantimos filhotes saudáveis, dentro do padrão oficial da raça e com temperamento equilibrado para fazer parte da sua família.</p>
+        </div>
+        <div class="about-image">
+            <!-- Substitua pelo link da foto do seu canil -->
+            <img src="https://unsplash.com" alt="Cães correndo felizes">
+        </div>
+    </section>
+
+    <!-- Galeria de Filhotes com Filtro JS -->
+    <section id="filhotes" class="puppies container">
+        <h2>Nossos Filhotes</h2>
+        <p class="section-subtitle">Encontre o novo membro da sua família</p>
+        
+        <!-- Botões de Filtro -->
+        <div class="filter-buttons">
+            <button class="filter-btn active" data-filter="todos">Todos</button>
+            <button class="filter-btn" data-filter="disponivel">Disponíveis</button>
+            <button class="filter-btn" data-filter="ninhada">Próximas Ninhadas</button>
+        </div>
+
+        <div class="puppies-grid">
+            <!-- Filhote 1 -->
+            <div class="puppy-card" data-category="disponivel">
+                <span class="badge badge-avail">Disponível</span>
+                <img src="https://unsplash.com" alt="Filhote">
+                <div class="puppy-info">
+                    <h3>Macho - Linhagem Campeã</h3>
+                    <p>Nascimento: 12/08/2026</p>
+                    <p class="price">Consulte o valor</p>
+                    <a href="https://wa.me! Gostaria de informações sobre o filhote Macho disponível." target="_blank" class="btn-whatsapp">
+                        <i class="fa-brands fa-whatsapp"></i> Reservar no WhatsApp
+                    </a>
+                </div>
+            </div>
+
+            <!-- Filhote 2 -->
+            <div class="puppy-card" data-category="disponivel">
+                <span class="badge badge-avail">Disponível</span>
+                <img src="https://unsplash.com" alt="Filhote">
+                <div class="puppy-info">
+                    <h3>Fêmea - Excelente Temperamento</h3>
+                    <p>Nascimento: 15/08/2026</p>
+                    <p class="price">Consulte o valor</p>
+                    <a href="https://wa.me! Gostaria de informações sobre a filhote Fêmea disponível." target="_blank" class="btn-whatsapp">
+                        <i class="fa-brands fa-whatsapp"></i> Reservar no WhatsApp
+                    </a>
+                </div>
+            </div>
+
+            <!-- Ninhada 3 -->
+            <div class="puppy-card" data-category="ninhada">
+                <span class="badge badge-next">Previsão: Dez/2026</span>
+                <img src="https://unsplash.com" alt="Ninhada">
+                <div class="puppy-info">
+                    <h3>Ninhada "A" - Thor x Bella</h3>
+                    <p>Lista de espera aberta para reservas.</p>
+                    <p class="price">Inscrições abertas</p>
+                    <a href="https://wa.me! Quero entrar na lista de espera para a próxima ninhada." target="_blank" class="btn-whatsapp">
+                        <i class="fa-brands fa-whatsapp"></i> Entrar na Lista
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé / Contato -->
+    <footer id="contato">
+        <div class="container footer-content">
+            <div class="footer-about">
+                <h3>Canil Prestígio</h3>
+                <p>Criação ética e profissional com foco em saúde, padrão e temperamento.</p>
+                <p><i class="fa-solid fa-location-dot"></i> São Paulo - SP (Enviamos p/ todo Brasil)</p>
+            </div>
+            <div class="footer-links">
+                <h3>Links Úteis</h3>
+                <ul>
+                    <li><a href="https://cbkc.org" target="_blank">Site Oficial CBKC</a></li>
+                    <li><a href="#sobre">Nossa Filosofia</a></li>
+                    <li><a href="#filhotes">Garantia de Saúde</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Canil Prestígio. Todos os direitos reservados. Registro CBKC nº XXXX.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
